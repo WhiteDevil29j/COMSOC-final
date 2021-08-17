@@ -50,23 +50,6 @@ section{
   padding-top:10.5rem;
 }
 
-.btn{
-  font-size: 1.7rem;
-  padding: .7rem 4rem;
-  border-radius: 5rem;
-  margin-top: 1rem;
-  background: linear-gradient(to left, #fc466b, #3f5efb);
-  color: white;
-  cursor: pointer;
-  border:.2rem solid black;
-}
-
-.btn:hover{
-  transform: scale(1.1,1.1);
-  color: white;
-  transition: 0.4s;
-}
-
 .btn2{
   font-size: 1.7rem;
   padding: .7rem 4rem;
@@ -81,22 +64,6 @@ section{
 .btn2:hover{
   transform: scale(1.1,1.1);
   color: white;
-  transition: 0.4s;
-}
-
-.btn3{
-  font-size: 1.7rem;
-  padding: .7rem 4rem;
-  border-radius: 5rem;
-  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
-  cursor: pointer;
-  border:.2rem solid black;
-}
-
-.btn3:hover{
-  transform: scale(1.1,1.1);
-  background: white;
-  color: black;
   transition: 0.4s;
 }
 
@@ -261,6 +228,39 @@ header #menu-bar{
 
 .heading span{
   color: #e84a43;
+}
+
+.heading1{
+  padding-top: 150px;
+  font-size: 3rem;
+  color: white;  
+}
+
+.heading1 span{
+  color:red;
+}
+
+.section1{
+  background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://i.postimg.cc/WzsQm7wm/blue-dark-yellow-abstract-artistic-4k-1539371150.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+}
+
+.section1 p{
+  font-size: 1.8rem;
+  color:white;
+  padding: 1rem 0%;
+}
+
+.section1 .evede{
+  padding-left: 4%;
+}
+
+.section1 a{
+  padding-left: 4%;
 }
 
 .footer{
@@ -440,6 +440,11 @@ header #menu-bar{
   .home::before{
     top: 42rem;
   }
+
+  .section1{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 @media (max-width:991px){
@@ -456,6 +461,11 @@ header #menu-bar{
 
   .home::before{
     top: 35rem;
+  }
+
+  .section1{
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
@@ -515,6 +525,11 @@ header #menu-bar{
   .home .content h3{
     font-size: 4.5rem;
   }
+
+  .section1{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 @media (max-width:500px){
@@ -536,5 +551,10 @@ header #menu-bar{
 
   .order .row .image{
     display: none;
+  }
+
+  .section1{
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
